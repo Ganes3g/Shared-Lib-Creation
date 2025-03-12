@@ -5,7 +5,7 @@ def call() {
             stage ('Git checkout'){
                 steps {
                     script {
-                        git branch: 'main', url:'https://github.com/Ganes3g/Shared-Lib-Creation.git'
+                        git branch: 'master', url:'https://github.com/Ganes3g/Shared-Lib-Creation.git'
                     }
                 }
             }
